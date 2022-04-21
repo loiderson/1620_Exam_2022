@@ -79,3 +79,5 @@ function contactCardBtn() {
   var element = document.createElement("div");
   element.appendChild(document.getSelection,'.display_all_contacts')
 }
+
+contactCardBtn()
