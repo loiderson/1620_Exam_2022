@@ -25,10 +25,10 @@ img {
 /* styles */
 .container {
   display: flex;
-
-
+  justify-content: space-between;
+  align-items: center;
   font-family: 'Inter', sans-serif;
-  background-color: var(--white);
+  background-color: var(--black);
 }
 
 header {
@@ -42,7 +42,7 @@ header {
 header p {
   font-weight: 500;
   font-size: 3rem;
-  color: var(--grey);
+  color: var(--white);
 }
 
 header ul {
@@ -51,12 +51,13 @@ header ul {
 }
 
 header li {
-  list-style: none;
+  list-style: circle;
 }
 
 header a {
   text-decoration: none;
-
+  display: flex;
+  align-items: flex-end;
 
   font-size: 2rem;
 }
@@ -72,7 +73,7 @@ main {
 #individual_contact {
   display: flex;
   gap: 20px;
-  color: var(--black);
+  color: var(--blue);
   font-weight: 200;
   padding: 20px;
 }
@@ -94,7 +95,7 @@ main {
 #individual_contact span {
   font-size: 3rem;
   margin: 5px;
-  background-color: var(--blue);
+  background-color: var(--grey);
   height: 3rem;
   border-radius: 50px;
 }
@@ -124,7 +125,7 @@ main {
 #display_all_contacts p {
   font-size: 2rem;
   font-weight: 500;
-  color: var(--black);
+  color: var(--white);
 }
 
 footer {
@@ -136,6 +137,6 @@ footer {
 footer p {
   font-weight: 500;
   font-size: 1.6rem;
-  color: var(--grey);
+  color: var(--white);
   align-self: center;
 }
