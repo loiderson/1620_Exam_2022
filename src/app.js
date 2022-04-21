@@ -52,3 +52,30 @@ const contactsList = [
 ]
 
 // Your code goes here
+var allContactArea = document.querySelector('.display_all_contacts')
+var singleContactArea = document.querySelector('.display_single_contact')
+const contactBtn = `
+<button class="SaveButton" onclick="SaveNoteArray()">Save</button>
+`
+
+function getAllContacts() {
+  allContactArea.insertAdjacentHTML('afterbegin', contactsList[image], 'motoko.png')
+  allContactArea.insertAdjacentHTML('afterbegin', contactsList[image], 'aramaki.png')
+  allContactArea.insertAdjacentHTML('afterbegin', contactsList[image], 'batou.png')
+  allContactArea.insertAdjacentHTML('afterbegin', contactsList[image], 'ishikawa.png')
+  allContactArea.insertAdjacentHTML('afterbegin', contactsList[image], 'saito.png')
+  allContactArea.insertAdjacentHTML('afterbegin', contactsList[image], 'tachikoma.png')
+  allContactArea.insertAdjacentHTML('afterbegin', contactsList[image], 'togus.png')
+}
+getAllContacts();
+
+function cardDivs() {
+  if (allContactArea.innerHTML.innerText == "") {
+    createElement(div)
+  }
+}
+
+function contactCardBtn() {
+  var element = document.createElement("div");
+  element.appendChild(document.getSelection,'.display_all_contacts')
+}
